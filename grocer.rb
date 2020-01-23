@@ -35,7 +35,7 @@ i = 0
   while i < coupons.size
     cart_item = find_item_by_name_in_collection(coupons[i][:item], cart)
      coup_item_name = "#{coupons[i][:item]} W/COUPON"
-     cart_item_with_coupon = 
+     cart_item_with_coupon =
     i+ =1
   end
 
@@ -49,4 +49,4 @@ end
 def checkout(cart, coupons)
 
 end
-###########################################################################
+##########################################################################
