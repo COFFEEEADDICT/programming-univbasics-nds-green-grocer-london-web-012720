@@ -23,6 +23,8 @@ i=0
             :clearance => cart[i][:clearance]
             :count => 1
             }
+            arr << new_cart_item 
+            
       end
         i+=1
     end
