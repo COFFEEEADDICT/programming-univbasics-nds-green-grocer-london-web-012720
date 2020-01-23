@@ -79,7 +79,7 @@ i=0
   i += 1
   end
 if tot > 100
-  tot -= (total * 0.10)
+  tot -= (tot * 0.10)
 end
 tot
 end
