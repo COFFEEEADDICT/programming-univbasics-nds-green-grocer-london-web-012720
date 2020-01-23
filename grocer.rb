@@ -20,8 +20,9 @@ i=0
           new_cart_item = {
             :item => cart[i][:item],
             :price => cart[i][:price],
-            :clearance => cart[i][:clearance]}
+            :clearance => cart[i][:clearance]
             :count => 1
+          }
       end
         i+=1
     end
