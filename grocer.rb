@@ -14,6 +14,7 @@ arr = []
 i=0
     while i < cart.size
       new_cart_item = find_item_by_name_in_collection(cart[i][:item], arr)
+      if new_cart_item != nil
     i+=1
     end
 
