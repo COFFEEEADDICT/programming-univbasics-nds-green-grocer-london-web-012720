@@ -42,7 +42,7 @@ i = 0
           cart_item[:count] -= coupons[i][:num]
           else
           cart_item_with_coupon = {
-            :item =>coup_item_name
+            :item => coup_item_name
           }
      end
 
