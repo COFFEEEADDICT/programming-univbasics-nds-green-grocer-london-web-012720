@@ -48,7 +48,9 @@ i = 0
             :clearance => cart_item[:clearance]
           }
           cart << cart_item_with_coupon
-          end
+          cart_item[:count] -= coupons[i][:num]
+
+        end
      end
 
     i+ =1
