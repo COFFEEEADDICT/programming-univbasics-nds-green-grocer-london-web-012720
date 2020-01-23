@@ -43,6 +43,7 @@ i = 0
           else
           cart_item_with_coupon = {
             :item => coup_item_name
+            :price => 
           }
      end
 
