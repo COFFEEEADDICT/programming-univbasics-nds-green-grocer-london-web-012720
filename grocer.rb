@@ -49,7 +49,6 @@ i = 0
           }
           cart << cart_item_with_coupon
           cart_item[:count] -= coupons[i][:num]
-
         end
      end
 
