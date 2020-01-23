@@ -16,6 +16,8 @@ i=0
       new_cart_item = find_item_by_name_in_collection(cart[i][:item], arr)
       if new_cart_item != nil
         new_cart_item[:count] += 1
+        else
+          
       end
         i+=1
     end
