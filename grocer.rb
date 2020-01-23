@@ -76,7 +76,7 @@ tot=0
 i=0
   while i < final_cart.size
 
-  i += 1  
+  i += 1
   end
 
 end
