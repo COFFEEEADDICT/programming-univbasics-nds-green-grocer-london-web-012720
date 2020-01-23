@@ -17,7 +17,10 @@ i=0
       if new_cart_item != nil
         new_cart_item[:count] += 1
         else
-          new_cart_item = {:item => cart[i][:item]}
+          new_cart_item = {
+            :item => cart[i][:item],
+            :price => cart[i][:price],
+            :clearance => cart[i][:price]}
       end
         i+=1
     end
