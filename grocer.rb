@@ -17,7 +17,7 @@ i=0
       if new_cart_item != nil
         new_cart_item[:count] += 1
         else
-
+          new_cart_item = {:item => cart[i][:item]}
       end
         i+=1
     end
