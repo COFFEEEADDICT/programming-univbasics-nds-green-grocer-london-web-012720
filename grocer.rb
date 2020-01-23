@@ -42,7 +42,7 @@ i = 0
           cart_item[:count] -= coupons[i][:num]
           else
           cart_item_with_coupon = {
-            :item => coup_item_name
+            :item => coup_item_name,
             :price => coupons[i][:cost] / coupons[i][:num],
             :count => coupons[i][:num],
             :clearance => cart_item[:clearance]
